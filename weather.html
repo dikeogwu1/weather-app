@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main class="container-1">
+      <header class="container-2">
+        <div class="title">
+          <h1 class="item">Weather Map</h1>
+          <div class="text">Biult from weather Api</div>
+        </div>
+        <div class="wrapper-1">
+          <form class="form">
+            <input class="input" type="text" placeholder="CITY NAME ONLY" />
+            <button type="submit" class="search-btn">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+          <hr />
+          <div class="city-box">
+            <h3>Weather in <span class="city"></span></h3>
+          </div>
+          <div class="weather-rate">
+            <h1><span class="rate">6.45</span>&deg;C</h1>
+          </div>
+          <div class="Weather-cond">
+            <div class="icon"><i class="fa fa-cloud"></i></div>
+            <h3 class="cond">broken clouds</h3>
+          </div>
+          <div class="weather-des">
+            <div class="hum">Humidity: <span class="humidity">60</span>%</div>
+            <div>Wind: <span class="wind">3.4</span>km/h</div>
+          </div>
+        </div>
+      </header>
+    </main>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
